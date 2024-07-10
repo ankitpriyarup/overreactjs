@@ -1,0 +1,47 @@
+.card {
+  height: 100px;
+  align-content: center;
+  margin: 16px;
+}
+
+.card-img {
+  float: left;
+  margin-right: 16px;
+  height: 100px;
+}
+
+.card-title {
+  cursor: pointer;
+  user-select: none;
+}
+
+.heading {
+    text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.links > a:hover {
+  text-decoration: underline;
+}
+
+.links > a:not(:hover) {
+  text-decoration: none;
+}
+
+.filter {
+  display: flex;
+  margin: 8px;
+}
+
+.search-input[type='text'] {
+  flex-grow: 1;
+  min-width: 0;
+  font-size: 1.5rem;
+}
